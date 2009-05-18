@@ -30,7 +30,7 @@ requires:
   JSON::XS: 2.232
   Module::Pluggable: 3.9
   Moose: 0.79
-  MooseX::POE: 0.201
+  MooseX::POE: 0.202
   POE: 1.005
   POE::Component::Client::HTTP: 0.88
   POE::Component::SSLify: 0.15
@@ -39,4 +39,4 @@ resources:
   homepage: http://github.com/bingos/poe-component-github/tree
   license: http://dev.perl.org/licenses/
   repository: git://github.com/bingos/poe-component-github.git
-version: 0.02
+version: 0.04
