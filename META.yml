@@ -34,9 +34,10 @@ requires:
   POE: 1.005
   POE::Component::Client::HTTP: 0.88
   POE::Component::SSLify: 0.15
+  URI::Escape: 3.29
   perl: 5.6.0
 resources:
   homepage: http://github.com/bingos/poe-component-github/tree
   license: http://dev.perl.org/licenses/
   repository: git://github.com/bingos/poe-component-github.git
-version: 0.04
+version: 0.06
