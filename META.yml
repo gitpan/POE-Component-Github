@@ -5,13 +5,13 @@ author:
 build_requires:
   ExtUtils::MakeMaker: 6.42
   HTTP::Response: 0
-  POE::Filter::HTTP::Parser: 0.08
+  POE::Filter::HTTP::Parser: 1.06
   Test::More: 0.47
   Test::POE::Server::TCP: 1.04
 configure_requires:
   ExtUtils::MakeMaker: 6.42
 distribution_type: module
-generated_by: 'Module::Install version 0.88'
+generated_by: 'Module::Install version 1.00'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -22,6 +22,31 @@ no_index:
     - examples
     - inc
     - t
+provides:
+  POE::Component::Github:
+    file: lib/POE/Component/Github.pm
+    version: 0.08
+  POE::Component::Github::Request::Commits:
+    file: lib/POE/Component/Github/Request/Commits.pm
+    version: 0.08
+  POE::Component::Github::Request::Issues:
+    file: lib/POE/Component/Github/Request/Issues.pm
+    version: 0.08
+  POE::Component::Github::Request::Network:
+    file: lib/POE/Component/Github/Request/Network.pm
+    version: 0.08
+  POE::Component::Github::Request::Object:
+    file: lib/POE/Component/Github/Request/Object.pm
+    version: 0.08
+  POE::Component::Github::Request::Repositories:
+    file: lib/POE/Component/Github/Request/Repositories.pm
+    version: 0.08
+  POE::Component::Github::Request::Role:
+    file: lib/POE/Component/Github/Request/Role.pm
+    version: 0.08
+  POE::Component::Github::Request::Users:
+    file: lib/POE/Component/Github/Request/Users.pm
+    version: 0.08
 requires:
   Algorithm::FloodControl: 0
   Class::MOP: 0.84
@@ -40,4 +65,4 @@ resources:
   homepage: http://github.com/bingos/poe-component-github/tree
   license: http://dev.perl.org/licenses/
   repository: git://github.com/bingos/poe-component-github.git
-version: 0.06
+version: 0.08
